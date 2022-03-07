@@ -1,6 +1,6 @@
 --- 
 framework: mocha
-nodeVersion: 14.18
+nodeVersion: 14.17.2
 postMerge: 
   pattern: 
     - ./test/*.js
