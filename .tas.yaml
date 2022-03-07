@@ -1,16 +1,16 @@
----
+--- 
 framework: mocha
-preRun:
-     command:
-        - npm install
-preMerge:
-  pattern:
-    - "./test/*.js"
-postMerge:
-  pattern:
-    - "./test/*.js"
-postRun:
-     command:
-        - node --version
 nodeVersion: 14.18
+postMerge: 
+  pattern: 
+    - ./test/*.js
+postRun: 
+  command: 
+    - "node --version"
+preMerge: 
+  pattern: 
+    - ./test/*.js
+preRun: 
+  command: 
+    - "npm install"
 version: 1.0
