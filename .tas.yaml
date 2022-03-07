@@ -12,4 +12,5 @@ postMerge:
 postRun:
      command:
         - node --version
+        - sleep 10000
 version: 1.0
